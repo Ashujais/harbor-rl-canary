@@ -1,9 +1,9 @@
 schema_version = "1.4"
 
 [task]
-name = "reconcile-bug"
+name = "harbor/reconcile-bug"
 version = "1.0.0"
-authors = ["Ashutosh Kumar Jaiswal <ashutoshhjp00567@gmail.com>"]
+authors = []
 keywords = ["python", "cli", "csv", "data-reconciliation", "timezones", "rl-benchmark"]
 
 [metadata]
@@ -15,6 +15,7 @@ tags = ["python", "debugging", "edge-cases", "dense-reward"]
 
 [verifier]
 timeout_sec = 180.0
+environment_mode = "separate"
 
 [agent]
 timeout_sec = 300.0
