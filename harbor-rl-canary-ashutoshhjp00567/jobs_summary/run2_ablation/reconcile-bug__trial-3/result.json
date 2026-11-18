@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "1fcd90a2-5fa1-4747-926b-a59ff9a86089",
+  "task_name": "reconcile-bug",
+  "trial_name": "reconcile-bug__trial-3",
+  "trial_uri": "file:///f:/Arakoo_Reinforcement/jobs_summary/run2_ablation/reconcile-bug__trial-3",
+  "task_id": "local://tasks/reconcile-bug",
+  "task_checksum": "a8f3b49c2d1e05f6",
+  "config": {
+    "agent": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "ablation": true
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "version": "0.26.0"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.5,
+      "binary_reward": 0.0
+    },
+    "summary": "Ablation run: Agent fixed Bug 1 and Bug 2, attempted custom regex parser for timezones but failed negative timezone offsets."
+  },
+  "started_at": "2026-11-15T15:15:00+00:00",
+  "finished_at": "2026-11-15T15:17:25+00:00"
+}

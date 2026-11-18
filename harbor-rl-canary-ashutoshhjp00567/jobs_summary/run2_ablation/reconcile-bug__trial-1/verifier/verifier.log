@@ -1,0 +1,7 @@
+=== Verifier Log for run2_ablation/trial-1 ===
+Anti-Cheat Check: PASSED
+Bug 1 (Surface): PASSED (+0.20)
+Bug 2 (Logic): PASSED (+0.30)
+Bug 3 (Timezone Edge Case): PASSED (+0.50)
+Binary Score: 1.0
+Dense Reward: 1.000

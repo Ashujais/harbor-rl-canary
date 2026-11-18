@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "be5b404b-3425-4b5d-91e8-e4fbc5afbdb2",
+  "task_name": "reconcile-bug",
+  "trial_name": "reconcile-bug__trial-3",
+  "trial_uri": "file:///f:/Arakoo_Reinforcement/jobs_summary/run1_baseline/reconcile-bug__trial-3",
+  "task_id": "local://tasks/reconcile-bug",
+  "task_checksum": "a8f3b49c2d1e05f6",
+  "config": {
+    "agent": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "ablation": false
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "version": "0.26.0"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0,
+      "binary_reward": 0.0
+    },
+    "summary": "Agent attempted to rewrite reconcile.py with argparse, introduced syntax error, failed Bug 1."
+  },
+  "started_at": "2026-11-15T14:30:00+00:00",
+  "finished_at": "2026-11-15T14:32:25+00:00"
+}

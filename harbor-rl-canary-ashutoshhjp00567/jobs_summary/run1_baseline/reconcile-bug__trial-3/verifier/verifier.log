@@ -1,0 +1,7 @@
+=== Verifier Log for run1_baseline/trial-3 ===
+Anti-Cheat Check: PASSED
+Bug 1 (Surface): FAILED (+0.00)
+Bug 2 (Logic): FAILED (+0.00)
+Bug 3 (Timezone Edge Case): FAILED (+0.00)
+Binary Score: 0.0
+Dense Reward: 0.000

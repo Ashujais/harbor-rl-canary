@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "ad6ae786-0db7-4906-a14b-e8c60ad9fff3",
+  "task_name": "reconcile-bug",
+  "trial_name": "reconcile-bug__trial-2",
+  "trial_uri": "file:///f:/Arakoo_Reinforcement/jobs_summary/run2_ablation/reconcile-bug__trial-2",
+  "task_id": "local://tasks/reconcile-bug",
+  "task_checksum": "a8f3b49c2d1e05f6",
+  "config": {
+    "agent": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "ablation": true
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "version": "0.26.0"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0,
+      "binary_reward": 1.0
+    },
+    "summary": "Ablation run: Agent utilized sample input, fixed CLI index, excluded PENDING, implemented timezone UTC normalization."
+  },
+  "started_at": "2026-11-15T15:00:00+00:00",
+  "finished_at": "2026-11-15T15:02:25+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "f97d629e-7677-4a71-87d6-45d10710aa44",
+  "task_name": "reconcile-bug",
+  "trial_name": "reconcile-bug__trial-1",
+  "trial_uri": "file:///f:/Arakoo_Reinforcement/jobs_summary/run2_ablation/reconcile-bug__trial-1",
+  "task_id": "local://tasks/reconcile-bug",
+  "task_checksum": "a8f3b49c2d1e05f6",
+  "config": {
+    "agent": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "ablation": true
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "version": "0.26.0"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0,
+      "binary_reward": 1.0
+    },
+    "summary": "Ablation run: Agent leveraged /app/sample_transactions.csv, detected timezone comparison flaw, and fixed all 3 bugs."
+  },
+  "started_at": "2026-11-15T14:45:00+00:00",
+  "finished_at": "2026-11-15T14:47:25+00:00"
+}

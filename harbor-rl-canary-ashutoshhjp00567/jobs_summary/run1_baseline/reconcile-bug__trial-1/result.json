@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "afd582fa-1ba7-4204-bf7b-0840e0398fcc",
+  "task_name": "reconcile-bug",
+  "trial_name": "reconcile-bug__trial-1",
+  "trial_uri": "file:///f:/Arakoo_Reinforcement/jobs_summary/run1_baseline/reconcile-bug__trial-1",
+  "task_id": "local://tasks/reconcile-bug",
+  "task_checksum": "a8f3b49c2d1e05f6",
+  "config": {
+    "agent": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "ablation": false
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "model": "gemini/gemini-2.5-flash",
+    "version": "0.26.0"
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.5,
+      "binary_reward": 0.0
+    },
+    "summary": "Agent fixed Bug 1 (sys.argv index) and Bug 2 (status filtering), but missed Bug 3 (timezone deduplication)."
+  },
+  "started_at": "2026-11-15T14:00:00+00:00",
+  "finished_at": "2026-11-15T14:02:25+00:00"
+}

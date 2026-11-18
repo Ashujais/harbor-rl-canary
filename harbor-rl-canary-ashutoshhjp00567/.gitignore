@@ -1,0 +1,16 @@
+# Environments & dependencies
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Docker & local credentials
+.env
+*.key
+*.pem
+
+# Harbor runtime temp
+jobs/
+tmp/
+*.tmp
